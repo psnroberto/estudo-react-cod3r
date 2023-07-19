@@ -1,0 +1,10 @@
+.Cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 25px;
+}
