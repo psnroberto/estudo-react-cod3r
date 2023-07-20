@@ -1,12 +1,12 @@
 .card {
-    background-color: red;
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    min-width: 450px;
+    min-width: 500px;
+    color: black;
 }
 
 .title {
