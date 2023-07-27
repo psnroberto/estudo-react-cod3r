@@ -1,0 +1,30 @@
+.contador {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-size: 1.4em;
+}
+
+input {
+    width: 20%;
+    height: 20px;
+    margin: auto;
+}

@@ -7,6 +7,9 @@ import Filmes from './components/basicos/Filmes'
 import FilmesInfos from './components/basicos/FilmesInfos'
 import ListasRepeticao from './components/basicos/ListasRepeticao'
 import TabelasRepeticao from './components/basicos/TabelasRepeticao'
+import Condicional from './components/basicos/Condicional'
+import UseStateContador from './components/basicos/UseStateContador/UseStateContador'
+import GeradorMegaSena from './components/basicos/GeradorMegaSena/GeradorMegaSena'
 
 import './App.css'
 
@@ -16,6 +19,19 @@ function App() {
         <div id="app">
 
             <div className='Cards'>
+
+                <Card titulo='#10 - Gerador Mega Sena' bgcolor='#A68F97' bordercolor='#A68F97'>
+                    <GeradorMegaSena />
+                </Card>
+
+                <Card titulo='#09 - Hook UseState - "Contador"' bgcolor='#A1C7E0' bordercolor='#A1C7E0'>
+                    <UseStateContador />
+                </Card>
+
+                <Card titulo='#08 - Renderização Condicional' bgcolor='#DBF227' bordercolor='#DBF227'>
+                    <Condicional numero={10}></Condicional>
+                    <Condicional numero={13}></Condicional>
+                </Card>
 
                 <Card titulo='#07 - Tabelas e repetição' bgcolor='#FF81D0' bordercolor='#FF81D0'>
                     <TabelasRepeticao></TabelasRepeticao>
